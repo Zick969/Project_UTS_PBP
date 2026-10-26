@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Undangan pernikahan Aulia dan Rizky. Dengan penuh rasa syukur, kami mengundang Anda untuk hadir.">
+  <title>Undangan Pernikahan | Aulia &amp; Rizky</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/icon_ubd_new.png" sizes="32x32">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <audio id="backgroundMusic" src="assets/audio/thousand_year.MP3" loop preload="none"></audio>
+
+  <nav class="navbar navbar-expand-lg wedding-navbar sticky-top" aria-label="Navigasi utama">
+    <div class="container">
+      <a class="navbar-brand script-brand" href="#home">Aulia &amp; Rizky</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Buka navigasi">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mempelai">Mempelai</a></li>
+          <li class="nav-item"><a class="nav-link" href="#acara">Acara</a></li>
+          <li class="nav-item"><a class="nav-link" href="#lokasi">Lokasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rsvp">RSVP</a></li>
+        </ul>
+        <a class="btn btn-wedding btn-sm" href="#mempelai">Buka Undangan</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container text-center">
+        <p class="eyebrow">UNDANGAN PERNIKAHAN</p>
+        <h1 class="hero-names">Aulia <span>&amp;</span> Rizky</h1>
+        <p class="hero-copy">Dengan penuh rasa syukur, kami mengundang Bapak/Ibu/Saudara/i<br class="d-none d-md-block"> untuk hadir dalam acara pernikahan kami.</p>
+        <div class="date-block" aria-label="Tanggal pernikahan 12 April 2027">
+          <span>SENIN</span>
+          <div class="date-row"><small>APRIL</small><strong>12</strong><small>2027</small></div>
+        </div>
+        <div class="countdown-wrap">
+          <p class="small mb-2">Menuju hari bahagia</p>
+          <div id="countdown" class="countdown">
+            <div><strong id="days">00</strong><span>Hari</span></div>
+            <div><strong id="hours">00</strong><span>Jam</span></div>
+            <div><strong id="minutes">00</strong><span>Menit</span></div>
+            <div><strong id="seconds">00</strong><span>Detik</span></div>
+          </div>
+        </div>
+        <button id="openInvitation" class="btn btn-wedding btn-open" type="button">Buka Undangan <i class="bi bi-arrow-down ms-2"></i></button>
+        <p class="music-hint mt-3"><i class="bi bi-music-note-beamed"></i> Tekan untuk membuka undangan dan memutar musik</p>
+      </div>
+      <a href="#mempelai" class="scroll-cue" aria-label="Gulir ke bagian mempelai"><i class="bi bi-chevron-down"></i></a>
+    </section>
+
+    <section id="mempelai" class="section-pad floral-section">
+      <div class="container content-container text-center">
+        <p class="section-kicker">DENGAN PENUH CINTA</p>
+        <h2 class="section-title">Mempelai</h2>
+        <div class="title-ornament"><span></span><i class="bi bi-flower1"></i><span></span></div>
+        <p class="section-intro">Dua hati, satu tujuan, membangun keluarga yang sakinah, mawaddah, warahmah.</p>
+
+        <div class="row align-items-center justify-content-center couple-row g-4">
+          <div class="col-10 col-md-4">
+            <img class="couple-photo" src="assets/mempelai_pria.png" alt="Foto romantis pasangan pengantin pria" loading="lazy">
+            <h3 class="person-name">Rizky Maulana</h3>
+            <p class="family-copy">Putra dari Bapak Joko Santoso<br>dan Ibu Siti Aminah</p>
+          </div>
+          <div class="col-12 col-md-1 ampersand">&amp;</div>
+          <div class="col-10 col-md-4">
+            <img class="couple-photo" src="assets/mempelai_wanita.png" alt="Foto romantis mempelai wanita" loading="lazy">
+            <h3 class="person-name">Aulia Rahmawati</h3>
+            <p class="family-copy">Putri dari Bapak Ahmad Fauzi<br>dan Ibu Nurhayati</p>
+          </div>
+        </div>
+
+        <h3 class="family-heading"><span></span>Keluarga Kami<span></span></h3>
+        <div class="row justify-content-center g-3 family-cards">
+          <div class="col-10 col-md-4"><div class="soft-card h-100"><h4>Keluarga Mempelai Pria</h4><p>Bapak Joko Santoso<br>Ibu Siti Aminah</p></div></div>
+          <div class="col-10 col-md-4"><div class="soft-card h-100"><h4>Keluarga Mempelai Wanita</h4><p>Bapak Ahmad Fauzi<br>Ibu Nurhayati</p></div></div>
+        </div>
+        <p class="closing-copy">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+      </div>
+    </section>
+
+    <section id="acara" class="section-pad event-section">
+      <div class="container content-container">
+        <div class="text-center">
+          <p class="section-kicker">CATAT TANGGALNYA</p>
+          <h2 class="section-title">Rangkaian Acara</h2>
+          <div class="title-ornament"><span></span><i class="bi bi-flower1"></i><span></span></div>
+          <p class="section-intro">Berikut adalah jadwal acara pernikahan kami.</p>
+        </div>
+        <div class="timeline">
+          <article class="event-card">
+            <div class="event-icon"><i class="bi bi-gem"></i></div>
+            <div><h3>Akad Nikah</h3><p><i class="bi bi-calendar3"></i> Senin, 12 April 2027</p><p><i class="bi bi-clock"></i> 08.00 WIB – Selesai</p><p><i class="bi bi-geo-alt"></i> Masjid Al-Akbar Surabaya<br><span class="detail-indent">Jl. Masjid Al-Akbar Timur No.1, Surabaya</span></p></div>
+          </article>
+          <article class="event-card">
+            <div class="event-icon"><i class="bi bi-people"></i></div>
+            <div><h3>Resepsi Pernikahan</h3><p><i class="bi bi-calendar3"></i> Senin, 12 April 2027</p><p><i class="bi bi-clock"></i> 08.00 – Selesai</p><p><i class="bi bi-geo-alt"></i> Gdyandra Convention Center<br><span class="detail-indent">Jl. Basuki Rahmat No.93-105, Surabaya</span></p></div>
+          </article>
+          <article class="event-card">
+            <div class="event-icon"><i class="bi bi-flower2"></i></div>
+            <div><h3>Ngunduh Mantu</h3><p><i class="bi bi-calendar3"></i> Minggu, 18 April 2027</p><p><i class="bi bi-clock"></i> 10.00 WIB – Selesai</p><p><i class="bi bi-geo-alt"></i> Rumah Mempelai Pria<br><span class="detail-indent">Malang, Jawa Timur</span></p></div>
+          </article>
+        </div>
+        <div class="thankyou-note text-center"><i class="bi bi-heart-fill"></i><p>Kehadiran dan doa restu Bapak/Ibu/Saudara/i merupakan kebahagiaan bagi kami.</p><span>Terima kasih.</span></div>
+      </div>
+    </section>
+
+    <section id="lokasi" class="section-pad floral-section location-section">
+      <div class="container content-container">
+        <div class="text-center">
+          <p class="section-kicker">KAMI MENUNGGU KEHADIRANMU</p>
+          <h2 class="section-title">Lokasi Acara</h2>
+          <div class="title-ornament"><span></span><i class="bi bi-flower1"></i><span></span></div>
+          <p class="section-intro">Berikut adalah lokasi acara pernikahan kami.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-lg-6">
+            <div class="location-card h-100">
+              <h3><i class="bi bi-building"></i> Masjid Al-Akbar Surabaya</h3>
+              <p class="address"><i class="bi bi-geo-alt"></i> Jl. Masjid Al-Akbar Timur No.1, Surabaya</p>
+              <iframe title="Peta area Surabaya untuk lokasi akad" src="https://maps.google.com/maps?q=Surabaya%20Jawa%20Timur&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <a class="btn btn-wedding map-button" href="https://www.google.com/maps/search/?api=1&query=Masjid+Al-Akbar+Surabaya" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill me-1"></i> Lihat di Google Maps</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="location-card h-100">
+              <h3><i class="bi bi-building"></i> Gdyandra Convention Center</h3>
+              <p class="address"><i class="bi bi-geo-alt"></i> Jl. Basuki Rahmat No.93-105, Surabaya</p>
+              <iframe title="Peta area Surabaya untuk lokasi resepsi" src="https://maps.google.com/maps?q=Surabaya%20Jawa%20Timur&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <a class="btn btn-wedding map-button" href="https://www.google.com/maps/place/Dyandra+Convention+Center+Surabaya/@-7.2697133,112.7391965,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd7fbdefffbdafb:0xb9aa968e8e8e7bad!8m2!3d-7.2697133!4d112.7417714!16s%2Fg%2F1hc30nhlp?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill me-1"></i> Lihat di Google Maps</a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-3 mt-2 align-items-stretch">
+          <div class="col-12 col-md-6"><img class="venue-photo" src="assets/Masjid-Al-Akbar-Surabaya.jpg" alt="Tempat akad pernikahan" loading="lazy"></div>
+          <div class="col-12 col-md-6"><img class="venue-photo" src="assets/dyandra.jpg" alt="Tempat resepsi pernikahan" loading="lazy"></div>
+          <div class="col-12 col-md-6"><div class="travel-card h-100"><i class="bi bi-car-front-fill"></i><div><h3>Informasi Perjalanan</h3><p>Silakan buka Google Maps untuk melihat rute perjalanan menuju lokasi acara.</p></div><i class="bi bi-geo-alt-fill travel-pin"></i></div></div>
+        </div>
+        <p class="edit-note">Catatan: alamat dan titik peta di atas sudah sesuai dengan lokasi acara, pastikan kalian ikuti saja titik peta terebut.</p>
+      </div>
+    </section>
+
+    <section id="galeri" class="section-pad gallery-section">
+      <div class="container content-container">
+        <div class="text-center">
+          <p class="section-kicker">CERITA KAMI</p>
+          <h2 class="section-title">Galeri Kami</h2>
+          <div class="title-ornament"><span></span><i class="bi bi-flower1"></i><span></span></div>
+          <p class="section-intro">Momen-momen indah dalam perjalanan cinta kami.</p>
+        </div>
+        <div class="row g-3 gallery-grid">
+          <div class="col-6 col-md-3"><button class="gallery-item" data-image="assets/galeri_1.jpg" data-caption="Kebersamaan" aria-label="Perbesar foto momen penuh cinta"><img src="assets/galeri_1.jpg" alt="Pasangan dalam suasana romantis" loading="lazy"></button></div>
+          <div class="col-6 col-md-3"><button class="gallery-item" data-image="assets/galeri_2.jpeg" data-caption="Hari istimewa" aria-label="Perbesar foto hari istimewa"><img src="assets/galeri_2.jpeg" alt="Dekorasi pernikahan" loading="lazy"></button></div>
+          <div class="col-6 col-md-3"><button class="gallery-item" data-image="assets/galeri_3.png" data-caption="Momen penuh cinta" aria-label="Perbesar foto kenangan indah"><img src="assets/galeri_3.png" alt="Momen pernikahan" loading="lazy"></button></div>
+          <div class="col-6 col-md-3"><button class="gallery-item" data-image="assets/galeri_4.png" data-caption="Kenangan yang indah" aria-label="Perbesar foto detail hari bahagia"><img src="assets/galeri_4.png" alt="Detail pernikahan dan bunga" loading="lazy"></button></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="section-pad rsvp-section floral-section">
+      <div class="container content-container">
+        <div class="text-center">
+          <p class="section-kicker">KEHADIRAN ANDA BERARTI BAGI KAMI</p>
+          <h2 class="section-title">Konfirmasi Kehadiran</h2>
+          <div class="title-ornament"><span></span><i class="bi bi-flower1"></i><span></span></div>
+          <p class="section-intro">Mohon konfirmasi kehadiran Anda sebelum 5 April 2027.</p>
+        </div>
+        <form id="rsvpForm" class="rsvp-form needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-12 col-md-6"><label class="form-label" for="guestName">Nama Lengkap</label><input class="form-control" id="guestName" name="guestName" type="text" placeholder="Masukkan nama lengkap" required><div class="invalid-feedback">Nama lengkap harus diisi.</div></div>
+            <div class="col-12 col-md-6"><label class="form-label" for="guestCount">Jumlah Tamu</label><select class="form-select" id="guestCount" name="guestCount" required><option value="" selected disabled>Pilih jumlah tamu</option><option value="1">1 orang</option><option value="2">2 orang</option><option value="3">3 orang</option><option value="4">4 orang</option><option value="5">5 orang</option></select><div class="invalid-feedback">Pilih jumlah tamu.</div></div>
+            <div class="col-12"><label class="form-label" for="attendance">Konfirmasi Kehadiran</label><select class="form-select" id="attendance" name="attendance" required><option value="" selected disabled>Pilih status kehadiran</option><option value="Hadir">Hadir</option><option value="Tidak Hadir">Tidak Hadir</option><option value="Belum Pasti">Masih Belum Pasti</option></select><div class="invalid-feedback">Pilih status kehadiran.</div></div>
+            <div class="col-12"><label class="form-label" for="guestMessage">Ucapan / Doa (Opsional)</label><textarea class="form-control" id="guestMessage" name="guestMessage" rows="3" placeholder="Tuliskan ucapan atau doa untuk kami..."></textarea></div>
+          </div>
+          <div class="text-center mt-4"><button class="btn btn-wedding btn-submit" type="submit"><i class="bi bi-send-fill me-2"></i>Kirim Konfirmasi</button></div>
+          <div id="rsvpAlert" class="alert mt-3 d-none" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="footer-hero text-center">
+      <div class="footer-shade"></div>
+      <div class="footer-content container">
+        <p class="script-thanks">Terima Kasih</p>
+        <p>Atas kehadiran dan doa restu Bapak/Ibu/Saudara/i.</p>
+        <i class="bi bi-heart-fill"></i>
+        <p class="footer-couple">Aulia &amp; Rizky</p>
+      </div>
+    </section>
+  </main>
+
+  <button id="musicToggle" class="music-toggle" type="button" aria-label="Putar musik" title="Putar atau hentikan musik"><i class="bi bi-music-note"></i></button>
+  <button id="backToTop" class="back-to-top" type="button" aria-label="Kembali ke atas" title="Kembali ke atas"><i class="bi bi-arrow-up"></i></button>
+
+  <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content gallery-modal-content">
+      <div class="modal-header border-0"><h2 class="modal-title fs-6" id="galleryModalLabel">Galeri Kami</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button></div>
+      <div class="modal-body pt-0"><img id="modalGalleryImage" class="modal-gallery-image" src="" alt=""><p id="modalGalleryCaption" class="text-center mt-3 mb-1"></p></div>
+    </div></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
